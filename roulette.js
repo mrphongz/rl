@@ -1,4 +1,3 @@
-function myFunction() {
 const sleep = s => new Promise(r => setTimeout(r, s));
 const chips = document.querySelectorAll('.roulette-control-area__counter-item');
 function namMuoi(){
@@ -246,6 +245,3 @@ setInterval(async() => {
                 break;
         }
 },33000);
-  }
-});
-}
