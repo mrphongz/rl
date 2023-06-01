@@ -1,5 +1,4 @@
-document.addEventListener('keydown', function(event) {
-  if (event.key === 'F8') {
+function myFunction() {
 const sleep = s => new Promise(r => setTimeout(r, s));
 const chips = document.querySelectorAll('.roulette-control-area__counter-item');
 function namMuoi(){
@@ -249,3 +248,4 @@ setInterval(async() => {
 },33000);
   }
 });
+}
