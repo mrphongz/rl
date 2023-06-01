@@ -1,8 +1,4 @@
-let confirmation = '';
-while (confirmation !== 'HienXinhDep') {
-  confirmation = prompt("ghi đúng code và nhấn ok ở bắt đầu giây 10:");
-}
-        const sleep = s => new Promise(r => setTimeout(r, s));
+const sleep = s => new Promise(r => setTimeout(r, s));
 const chips = document.querySelectorAll('.roulette-control-area__counter-item');
 function namMuoi(){
         chips[0].click();
