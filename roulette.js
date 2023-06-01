@@ -10,8 +10,9 @@
 // @verify       https://raw.githubusercontent.com/mrphongz/rl/main/roulette.js
 // ==/UserScript==
 
-
-const sleep = s => new Promise(r => setTimeout(r, s));
+const confirmation = prompt("Nhập mã và nhấn ok khi bắt đầu đặt giây 10:");
+if(confirmation === 'HienXinhDep') {
+        const sleep = s => new Promise(r => setTimeout(r, s));
 const chips = document.querySelectorAll('.roulette-control-area__counter-item');
 function namMuoi(){
         chips[0].click();
@@ -258,3 +259,4 @@ setInterval(async() => {
                 break;
         }
 },33000);
+}
